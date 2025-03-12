@@ -9,15 +9,15 @@ try:
 
     # 로그 출력
     for log in logList:
-        print(log)
+        print(log, end='')
         
-    print('\n--------------------------------------------------------\n\n')
+    print('\n--------------------------------------------------------\n')
 
     # 로그 거꾸로 출력 (보너스 문제)
     logList.reverse()
 
     for log in logList:
-        print(log)
+        print(log, end='')
 
 except Exception as e:
     # 오류 문구 write
