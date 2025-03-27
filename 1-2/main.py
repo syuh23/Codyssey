@@ -50,5 +50,5 @@ data = stringData.replace(',},', '\n},').replace(', ]', '\n]')
 
 
 # JSON 파일 포맷으로 저장
-with(open('./mission_computer_main.json', 'w') as file):
+with(open('./1-2/mission_computer_main.json', 'w') as file):
     file.write(data)
